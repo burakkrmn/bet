@@ -1,0 +1,456 @@
+body {
+    margin: 0;
+}
+
+body.loaded {
+    background: #000 !important;
+}
+
+.width25 {
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrap {
+    flex: 1 0 auto;
+    flex-direction: column;
+    display: flex;
+}
+
+div#home {
+    display: inline-block;
+    width: 100%;
+    min-height: 550px;
+    background: #10131e;
+    padding-bottom: 80px;
+}
+
+.hometabs {
+    clear: both;
+}
+
+.football-content {
+    background-color: #282828;
+    border-radius: 5px;
+    margin: 2px 0;
+    border: none;
+}
+
+.football-content a {
+    color: #fff !important;
+}
+
+.bet-contnet-bg {
+    width: 100%;
+    float: left;
+    border: 0 !important;
+
+}
+
+.live-bet.modul-accordion .modul-content .live-bet-content {
+    width: 49%;
+    float: left;
+    margin: 3px .5%;
+    background: #1b1b1b;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.live-bet.modul-accordion .modul-content .live-bet-content .bet-match {
+    font-weight: bold;
+    width: 39%;
+}
+
+.modal-content h2 {
+    color: #ecc018;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.modal-content {
+    color: #000;
+}
+
+.bet-match a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.bet-match span {
+    margin-right: 10px;
+}
+
+.text-yellow {
+    color: #febd17;
+}
+
+.text-green {
+    color: #1bb953;
+}
+
+.live-bet.modul-accordion .modul-content .live-bet-content .bet-skor {
+    width: 25%;
+    color: #fff;
+    font-weight: bold;
+    padding: 0;
+}
+
+.live-bet.modul-accordion .modul-content .live-bet-content .counter {
+    float: left;
+    opacity: 0.8;
+    text-align: center;
+    line-height: 30px;
+    padding: 5px;
+}
+
+.slot-games {
+    width: 100%;
+    background: url(http://v3.pronetstatic.com/goldenbahis/upload_files/slog-bg.jpg) no-repeat center center;
+    padding: 20px 0;
+}
+
+.bcontainer {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-md-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-md-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.brow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.live-casino-title {
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.listarea {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+}
+
+.listarea .list-title {
+    font-size: 16px;
+    color: #d4a232;
+    margin-bottom: 10px;
+}
+
+.listarea ul {
+    list-style: none;
+    padding: 0 10px;
+    margin: 0;
+    overflow-y: scroll;
+    height: 150px;
+}
+
+.listarea ul li {
+    display: block;
+}
+
+.listarea ul li a {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.listarea ul li a .img {
+    flex: 0 1 20%;
+}
+
+.listarea ul li a .title {
+    flex: 0 1 80%;
+    font-size: 13px;
+    text-align: right;
+}
+
+.listarea ul li a .title .tit {
+    font-weight: bold;
+}
+
+.listarea ul li a .title .bonnus {
+    color: #d4a232;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.nostylecasino {
+    background-color: transparent !important;
+    margin: 0 !important;
+    padding: 13px 0 !important;
+}
+
+
+
+.yatirimlar {
+    width: 100%;
+    display: block;
+    padding: 50px 0;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.yatirim {
+    width: 14%;
+    display: inline-flex;
+    justify-content: center;
+    height: 100px;
+    background: #1a1d2a;
+    border-radius: 20px;
+    margin: 0 0.5%;
+}
+
+.yatirim a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #c5a868;
+    width: 100%;
+}
+
+.yatirim_title {
+    font-family: 'Roboto', 'Maven Pro', sans-serif;
+    font-size: 15px;
+    overflow: hidden;
+    color: #fff;
+    margin: 9px 0 0;
+}
+
+.yatirim_title span {
+    color: #fff;
+}
+
+.yatirim_title * {
+    display: block;
+    position: relative;
+}
+
+.yatirim_image {
+    position: relative;
+    height: 47px;
+    margin: 0 auto;
+}
+
+.yatirim-holder {
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    height: 47px;
+    display: flex;
+    position: relative;
+}
+
+.yatirim-holder img {
+    transition: 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+}
+
+.yatirim a:hover .yatirim-holder:before {
+
+    -webkit-box-shadow: 6px 2px 0px 0px rgba(102, 79, 27, 1);
+    -moz-box-shadow: 6px 2px 0px 0px rgba(102, 79, 27, 1);
+    box-shadow: 6px 2px 0px 0px rgba(102, 79, 27, 1);
+}
+
+.yatirim a:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.main_card_banner {
+    text-align: center;
+    margin: 50px 5% 0;
+    width: 90%;
+    display: inline-block;
+}
+
+.main_card_banner a {
+    display: inline-block;
+    margin: 0 0.6%;
+    float: left;
+}
+
+.main_card_banner a:nth-child(1) {
+    width: 36%;
+}
+
+.main_card_banner a:nth-child(2) {
+    width: 24%;
+}
+
+.main_card_banner a:nth-child(3) {
+    width: 36%;
+}
+
+.main_card_banner img {
+    max-width: 100%;
+    transition: 0.3s;
+    float: left;
+}
+
+.main_card_banner img:hover {
+    -moz-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.main_text {
+    background: #1a1d2a;
+    width: 90%;
+    margin: 50px auto 0;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 10px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+}
+
+.main_text:before {
+    content: "";
+    background: url(https://v3.pronetstatic.com/goldenbahis/upload_files/main_text_before.png) no-repeat 0 0;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+.main_text:after {
+    content: "";
+    background: url(https://v3.pronetstatic.com/goldenbahis/upload_files/main_text_after.png) no-repeat 0 0;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+
+.main_game {
+    width: 90%;
+    margin: 50px auto;
+    border: none;
+}
+
+.main_game .game {
+    float: left;
+    width: 13%;
+    margin-left: 1.5%;
+    transition: 0.3s;
+}
+
+.main_game .game:hover {
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+}
+
+.main_game .game:first-child {
+    margin-left: 0;
+}
+
+.main_game .game img {
+    float: left;
+    max-width: 100%;
+}
+
+.main_game .game p {
+    float: left;
+    margin: 0;
+    width: 100%;
+    padding: 8px 15px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    background: #1a1d2a;
+}
+
+
+@media(min-width:0) and (max-width:1320px) {
+    .main_text {
+        font-size: 14px;
+    }
+
+    .yatirim {
+        height: 120px;
+    }
+
+}
+
+@media(min-width:0) and (max-width:1200px) {}
+
+@media(min-width:0) and (max-width:720px) {}

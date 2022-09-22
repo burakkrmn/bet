@@ -1,0 +1,105 @@
+.page-content-area {
+    color: #f1f1f1;
+}
+
+.icon-footer-image-partner_vivogaming {
+    background-image: url(vivogaming-logo.png) !important;
+    background-position: center center;
+    width: 150px;
+    height: 30px;
+    background-size: cover;
+}
+
+.bet-history-coupon-container table#couponBetList {
+    color: #000 !important;
+}
+
+#bet-slip-master .dshbrd-cshOut-wr .toggle-cashout-range-icon {
+    color: #000;
+}
+
+#cashOutPrompt {
+    color: #000 !important;
+}
+
+#virtual-sports-page .modul-content {
+    color: #000;
+}
+
+.modal-fixed-betHistory {
+    color: #000;
+}
+
+.modal-content .modul-content .content table thead tr {
+    color: #fff;
+}
+
+.modal-content .modul-content .content table thead tr.white,
+.dshbrd-cshOut-wr .toggle-cashout-range-icon {
+    color: #000;
+}
+
+.bg.bethistory-W {
+    background-color: #008b00;
+}
+
+.bg.bethistory-W:hover {
+    background-color: #07bf07 !important;
+}
+
+i.bethistory-W {
+    color: #fff;
+}
+
+.bg.bethistory-L {
+    background-color: #b51317;
+}
+
+.bg.bethistory-L:hover {
+    background-color: #d62b30 !important;
+}
+
+i.bethistory-L {
+    color: #fff;
+}
+
+.bg.bethistory-O {
+    color: #000;
+}
+
+.bg.bethistory-O {
+    background-color: #e6b736 !important;
+}
+
+.bg.bethistory-O:hover {
+    background-color: #daa807 !important;
+}
+
+i.bethistory-O {
+    color: #fff;
+}
+
+.bg.bethistory-O.bethistory-cashout {
+    background-color: #ffe2b6 !important;
+}
+
+.bg.bethistory-L,
+.bg.bethistory-W,
+.bg.bethistory-C {
+    color: #000;
+}
+
+
+.modal-content {
+    color: #000;
+}
+
+select.browser-default.ng-pristine {
+    color: #ce0808;
+    border-color: #ce0808;
+}
+
+select.browser-default.ng-valid-parse {
+    color: #05ab0a;
+    border-color: #05ab0a;
+}

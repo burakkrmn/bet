@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet preload">
+  <link rel="shortcut icon" href="favicon.ico" />
+  <script>window.prerenderReady = false;</script>
+<link rel="stylesheet" href="styles.f921a589286d286c9627.css"></head>
+<body>
+  <app-root></app-root>
+<script src="runtime.7565305776547a8f6d23.js" defer></script><script src="polyfills-es5.d04b168c31a97dec6745.js" nomodule defer></script><script src="polyfills.b0b99108cba12dcb1eb3.js" defer></script><script src="scripts.7d4e5b8fd90d50a3589c.js" defer></script><script src="main.83e192f561a262dcaa71.js" defer></script></body>
+</html>
+<!-- Thu Apr 22 2021 14:31:52 GMT+0300 (GMT+03:00) -->

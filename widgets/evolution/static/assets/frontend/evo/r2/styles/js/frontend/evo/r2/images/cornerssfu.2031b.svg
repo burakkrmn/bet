@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="849px" height="232px" viewBox="0 0 849 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>CORNERS</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#CA9E48" offset="0%"></stop>
+            <stop stop-color="#D5B259" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#EDD97A" offset="0%"></stop>
+            <stop stop-color="#D7B55B" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#505050" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-4">
+            <stop stop-color="#F1E07F" offset="0%"></stop>
+            <stop stop-color="#BA8433" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CORNERS">
+            <g id="CORNER_RIGHT_BOT" transform="translate(626, 172) rotate(-180) translate(-626, -172) translate(403, 113)">
+                <rect id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" x="3" y="7" width="443" height="1"></rect>
+                <rect id="Combined-Shape" fill="url(#linearGradient-2)" fill-rule="nonzero" x="7" y="3" width="1" height="116"></rect>
+                <circle id="Oval" stroke="url(#linearGradient-4)" fill="url(#linearGradient-3)" cx="7.5" cy="7.5" r="7"></circle>
+            </g>
+            <g id="CORNER_LEFT_BOT" transform="translate(223, 172) scale(1, -1) translate(-223, -172) translate(0, 113)">
+                <rect id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" x="3" y="7" width="443" height="1"></rect>
+                <rect id="Combined-Shape" fill="url(#linearGradient-2)" fill-rule="nonzero" x="7" y="3" width="1" height="116"></rect>
+                <circle id="Oval" stroke="url(#linearGradient-4)" fill="url(#linearGradient-3)" cx="7.5" cy="7.5" r="7"></circle>
+            </g>
+            <g id="CORNER_RIGHT_TOP" transform="translate(626, 59) scale(-1, 1) translate(-626, -59) translate(403, 0)">
+                <rect id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" x="3" y="7" width="443" height="1"></rect>
+                <rect id="Combined-Shape" fill="url(#linearGradient-2)" fill-rule="nonzero" x="7" y="3" width="1" height="116"></rect>
+                <circle id="Oval" stroke="url(#linearGradient-4)" fill="url(#linearGradient-3)" cx="7.5" cy="7.5" r="7"></circle>
+            </g>
+            <g id="CORNER_LEFT_TOP">
+                <rect id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" x="3" y="7" width="443" height="1"></rect>
+                <rect id="Combined-Shape" fill="url(#linearGradient-2)" fill-rule="nonzero" x="7" y="3" width="1" height="116"></rect>
+                <circle id="Oval" stroke="url(#linearGradient-4)" fill="url(#linearGradient-3)" cx="7.5" cy="7.5" r="7"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

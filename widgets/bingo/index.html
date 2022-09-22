@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui,viewport-fit=cover">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Lobby</title>
+    <link href="static/ui-lobby.lgio.net/vendors..css" rel="stylesheet">
+    <link href="static/ui-lobby.lgio.net/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            for (let el of document.querySelectorAll('.game-node')) {
+                el.addEventListener('click', () => {
+                    swal.fire('Dikkat', 'Odaya girmek için lütfen bakiyenizi yükseltin', 'warning');
+                })
+            }
+        })
+    </script>
+</head>
+<body>
+    <div id="reactor">
+        <div class="star-wrapper">
+            <div id="stars">
+            </div>
+            <div id="stars2">
+            </div>
+            <div id="stars3">
+            </div>
+        </div>
+        <section class="game-widget" id="game-widget">
+            <button class="widget-closer">
+                <i class="fa fa-times">
+                </i>
+            </button>
+            <div class="game-list">
+                <div class="game-node game-kilic kilic-EqFowfHqGgo">
+                    <div class="image">
+                        <span class="live">
+                            <img src="static/img/media/kilic.53b322d9.png">
+                        </span>
+                        <span class="logo">
+                            <img src="static/img/media/logo-kilic.3ac5534b.png">
+                        </span>
+                    </div>
+                    <div class="room-options">
+                        <div class="title">
+                            <h5>Kılıç</h5>
+                            <h3>8</h3>
+                        </div>
+                    </div>
+                    <span class="playing-info">OYNANIYOR</span>
+                </div>
+                <div class="game-node game-overunder overunder-YVyRACpMmuBr">
+                    <div class="image">
+                        <span class="live">
+                            <img src="static/img/media/overunder.2b3de526.jpg">
+                        </span>
+                        <span class="logo">
+                            <img src="static/img/media/logo-tr.3b563f54.png">
+                        </span>
+                    </div>
+                    <div class="room-options">
+                        <div class="title">
+                            <h5>Canlı Alt/Üst</h5>
+                            <h3>6</h3>
+                        </div>
+                    </div>
+                    <span class="playing-info">OYNANIYOR</span>
+                </div>
+                <div class="game-node game-overunder overunderExt-ObjrSqPwpJYQ">
+                    <div class="image">
+                        <span class="live">
+                            <img src="static/img/media/overunder-ext-tr.b4eae245.jpg">
+                        </span>
+                    </div>
+                    <div class="room-options">
+                        <div class="title">
+                            <h5>Canlı Alt/Üst Ekstra</h5>
+                            <h3>6</h3>
+                        </div>
+                    </div>
+                    <span class="playing-info">OYNANIYOR</span>
+                </div>
+                <div class="game-node game-tombala tombala-VzXRDXsssAJP">
+                    <div class="image">
+                        <span class="live">
+                            <img src="static/img/media/tombala-new.9e6b8f2e.jpg">
+                        </span>
+                    </div>
+                    <div class="room-options">
+                        <div class="title">
+                            <h5>Canlı Tombala</h5>
+                            <h3>991</h3>
+                        </div>
+                    </div>
+                    <span class="playing-info">OYNANIYOR</span>
+                </div>
+                <div class="game-node game-tombala tombala-gtJXmiqCHSND">
+                    <div class="image">
+                        <span class="live">
+                            <img src="static/img/media/tombala-new-st.72c824c4.jpg">
+                        </span>
+                        <span class="nuevo-band">YENİ</span>
+                    </div>
+                    <div class="room-options">
+                        <div class="title">
+                            <h5>Canlı Tombala - Yeni Stüdyo</h5>
+                            <h3>404</h3>
+                        </div>
+                    </div>
+                    <span class="playing-info">OYNANIYOR</span>
+                </div>
+                <div class="game-node game-tombala tombala-pUsOjlNXtdUo">
+                    <div class="image">
+                        <span class="live">
+                            <img src="static/img/media/classic-auto.7cdc0b1a.jpg">
+                        </span>
+                    </div>
+                    <div class="room-options">
+                        <div class="title">
+                            <h5>Tombala - OTO</h5>
+                            <h3>506</h3>
+                        </div>
+                    </div>
+                    <span class="playing-info">OYNANIYOR</span>
+                </div>
+                <div class="game-node game-tombalaold tombala-VzXRDXsssAJP">
+                    <div class="image">
+                        <span class="live">
+                            <img src="static/img/media/lobby-tombala-old.546dc252.png">
+                        </span>
+                    </div>
+                    <div class="room-options">
+                        <div class="title">
+                            <h5>Canlı Tombala - Eski Arayüz</h5>
+                            <h3>506</h3>
+                        </div>
+                    </div>
+                    <span class="playing-info">OYNANIYOR</span>
+                </div>
+                <div class="game-node game-tombalaslot tombalaslot-BrxXESkENtad">
+                    <div class="image">
+                        <span class="live">
+                            <img src="static/img/media/tombalaslot.bbb20e58.jpg" alt="">
+                        </span>
+                    </div>
+                    <div class="room-options">
+                        <div class="title">
+                            <h5>Tombala Slot</h5>
+                            <h3>9</h3>
+                        </div>
+                    </div>
+                    <span class="playing-info">OYNANIYOR</span>
+                </div>
+            </div>
+        </section>
+        <div class="Toastify">
+        </div>
+        <section id="game-lobby">
+            <div class="lobby-wrapper">
+                <section class="banner-area">
+                    <div class="maincarousel" dir="ltr">
+                        <div class="" style="width: 100%; display: inline-block;">
+                            <img src="static/img/media/overunder-tr.2ab19ca7.jpg" alt="">
+                            <div class="banner-content ou-content">
+                                <button class="play-now btn-effect-swipe">ŞİMDİ
+                                    OYNA</button>
+                            </div>
+                        </div>
+                        <div style="width: 100%; display: inline-block;">
+                            <img src="static/img/media/tombalacard.8893fb33.jpg" alt="">
+                            <span class="banner-label">%20
+                                BONUS</span>
+                            <div class="banner-content">
+                                <h1>Tombala</h1>
+                                <p>Klasik tombala heyecanı yeni ve kolay kullanımlı geliştirilmiş arayüzü ile sizlerle!
+                                </p><button class="play-now btn-effect-swipe">ŞİMDİ OYNA</button>
+                            </div>
+                            <div id="jpf-container" class="jpf-container"
+                                style="width: 288px; height: 120.96px; display: block;">
+                                <iframe name="jpf-container" id="jpf-container-iframe" width="100%" height="100%"
+                                    frameborder="0" allowfullscreen="true" webkitallowfullscreen="true"
+                                    mozallowfullscreen="true" scrolling="no" src="../jackpot-bingo/index.html">
+                                </iframe>
+                            </div>
+                            <div id="jpf-script">
+                            </div>
+                        </div>
+                        <div class="" style="width: 100%; display: inline-block;">
+                            <img src="static/img/media/tombalaslot-tr.e66f6600.jpg" alt="">
+                            <div class="banner-content" style="width: 32%;">
+                                <h1>Tombala Slot</h1>
+                                <p>Klasik Tombala keyfi şimdi slot ile her 5 spine 1 spin bedava</p>
+                                <button class="play-now btn-effect-reflection">ŞİMDİ OYNA</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="game-list auto-list">
+                    <div class="room-wrapper">
+                        <div class="game-node game-kilic kilic-EqFowfHqGgo">
+                            <div class="image">
+                                <span class="live">
+                                    <img src="static/img/media/kilic.53b322d9.png">
+                                </span>
+                                <span class="logo">
+                                    <img src="static/img/media/logo-kilic.3ac5534b.png">
+                                </span>
+                            </div>
+                            <div class="room-options">
+                                <div class="title">
+                                    <h5>Kılıç</h5>
+                                    <h3>8</h3>
+                                </div>
+                            </div>
+                            <span class="playing-info">OYNANIYOR</span>
+                        </div>
+                        <div class="game-node game-overunder overunder-YVyRACpMmuBr">
+                            <div class="image">
+                                <span class="live">
+                                    <img src="static/img/media/overunder.2b3de526.jpg">
+                                </span>
+                                <span class="logo">
+                                    <img src="static/img/media/logo-tr.3b563f54.png">
+                                </span>
+                            </div>
+                            <div class="room-options">
+                                <div class="title">
+                                    <h5>Canlı Alt/Üst</h5>
+                                    <h3>6</h3>
+                                </div>
+                            </div>
+                            <span class="playing-info">OYNANIYOR</span>
+                        </div>
+                        <div class="game-node game-overunder overunderExt-ObjrSqPwpJYQ">
+                            <div class="image">
+                                <span class="live">
+                                    <img src="static/img/media/overunder-ext-tr.b4eae245.jpg">
+                                </span>
+                            </div>
+                            <div class="room-options">
+                                <div class="title">
+                                    <h5>Canlı Alt/Üst Ekstra</h5>
+                                    <h3>6</h3>
+                                </div>
+                            </div>
+                            <span class="playing-info">OYNANIYOR</span>
+                        </div>
+                        <div class="game-node game-tombala tombala-VzXRDXsssAJP">
+                            <div class="image">
+                                <span class="live">
+                                    <img src="static/img/media/tombala-new.9e6b8f2e.jpg">
+                                </span>
+                            </div>
+                            <div class="room-options">
+                                <div class="title">
+                                    <h5>Canlı Tombala</h5>
+                                    <h3>991</h3>
+                                </div>
+                            </div>
+                            <span class="playing-info">OYNANIYOR</span>
+                        </div>
+                        <div class="game-node game-tombala tombala-gtJXmiqCHSND">
+                            <div class="image">
+                                <span class="live">
+                                    <img src="static/img/media/tombala-new-st.72c824c4.jpg">
+                                </span>
+                                <span class="nuevo-band">YENİ</span>
+                            </div>
+                            <div class="room-options">
+                                <div class="title">
+                                    <h5>Canlı Tombala - Yeni Stüdyo</h5>
+                                    <h3>404</h3>
+                                </div>
+                            </div>
+                            <span class="playing-info">OYNANIYOR</span>
+                        </div>
+                        <div class="game-node game-tombala tombala-pUsOjlNXtdUo">
+                            <div class="image">
+                                <span class="live">
+                                    <img src="static/img/media/classic-auto.7cdc0b1a.jpg">
+                                </span>
+                            </div>
+                            <div class="room-options">
+                                <div class="title">
+                                    <h5>Tombala - OTO</h5>
+                                    <h3>506</h3>
+                                </div>
+                            </div>
+                            <span class="playing-info">OYNANIYOR</span>
+                        </div>
+                        <div class="game-node game-tombalaold tombala-VzXRDXsssAJP">
+                            <div class="image">
+                                <span class="live">
+                                    <img src="static/img/media/lobby-tombala-old.546dc252.png">
+                                </span>
+                            </div>
+                            <div class="room-options">
+                                <div class="title">
+                                    <h5>Canlı Tombala - Eski Arayüz</h5>
+                                    <h3>506</h3>
+                                </div>
+                            </div>
+                            <span class="playing-info">OYNANIYOR</span>
+                        </div>
+                        <div class="game-node game-tombalaslot tombalaslot-BrxXESkENtad">
+                            <div class="image">
+                                <span class="live">
+                                    <img src="static/img/media/tombalaslot.bbb20e58.jpg">
+                                </span>
+                            </div>
+                            <div class="room-options">
+                                <div class="title">
+                                    <h5>Tombala Slot</h5>
+                                    <h3>9</h3>
+                                </div>
+                            </div>
+                            <span class="playing-info">OYNANIYOR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="blind">
+    </div>
+    <div id="iframe-container">
+        <span class="livegames-logo">
+        </span>
+    </div>
+    <div id="loader" class="loader hide">
+        <div class="loading">
+        </div>
+    </div>
+    <script src="static/js/jquery.min.js">
+    </script>
+    <script src="static/js/slick.min.js">
+    </script>
+    <script>
+        $('.maincarousel').slick({
+            dots: true,
+        });
+    </script>
+</body>
+</html>

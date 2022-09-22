@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/*
+Flaticon icon font: Flaticon
+Creation date: 01/12/2020 10:32
+*/
+@font-face {
+  font-family: "Flaticon";
+  src: url("/assets-bt/webfonts/Flaticon.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("/assets-bt/webfonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+[class^=flaticon-]:before, [class*=" flaticon-"]:before,
+[class^=flaticon-]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-style: normal;
+  font-weight: 400 !important;
+}
+
+.flaticon-symbol-of-spades:before { content: ""; }
+.flaticon-account:before { content: ""; }
+.flaticon-lock-padlock-symbol-for-security-interface:before { content: ""; }
+.flaticon-lock:before { content: "\f102"; }
+.flaticon-question-mark:before { content: ""; }
+.flaticon-sign-in:before { content: ""; }
+.flaticon-add:before { content: ""; }
+.flaticon-answering:before { content: ""; }
+.flaticon-television:before { content: ""; }
+.flaticon-down-arrow:before { content: ""; }
+.flaticon-fire:before { content: ""; }
+.flaticon-star:before { content: ""; }
+.flaticon-football-field:before { content: ""; }
+.flaticon-calendar:before { content: ""; }
+.flaticon-bet:before { content: ""; }
+.flaticon-football:before { content: ""; }
+.flaticon-clock:before { content: ""; }
+.flaticon-gamepad:before { content: ""; }
+.flaticon-poker-chip:before { content: ""; }
+.flaticon-cherry:before { content: ""; }
+.flaticon-horse-racing:before { content: ""; }
+.flaticon-bingo:before { content: ""; }
+.flaticon-zeppelin:before { content: ""; }
+.flaticon-multiple-triangles-triangle:before { content: ""; }
+.flaticon-gift:before { content: ""; }
+.flaticon-gift-1:before { content: ""; }
+.flaticon-right-arrow:before { content: ""; }
+.flaticon-facebook-logo:before { content: ""; }
+.flaticon-instagram:before { content: ""; }
+.flaticon-twitter:before { content: ""; }
+.flaticon-youtube-logo:before { content: ""; }
+.flaticon-support:before { content: ""; }
+.flaticon-telegram:before { content: ""; }
+.flaticon-android:before { content: ""; }
+.flaticon-down-arrow-1:before { content: ""; }
+.flaticon-play-button:before { content: ""; }
+.flaticon-speech-bubbles-with-dollar-sign:before { content: ""; }
+.flaticon-home:before { content: ""; }
+.flaticon-football-1:before { content: ""; }
+.flaticon-live:before { content: ""; }
+.flaticon-gamepad-1:before { content: ""; }
+.flaticon-jackpot:before { content: ""; }
+.flaticon-running-horse-with-jockey:before { content: ""; }
+.flaticon-numbers-one-and-five:before { content: ""; }
+.flaticon-airship:before { content: ""; }
+.flaticon-grid:before { content: ""; }
+.flaticon-credit-card:before { content: ""; }
+.flaticon-trophy:before { content: ""; }
+.flaticon-soccer-ball-variant:before { content: ""; }
+.flaticon-basketball:before { content: ""; }
+.flaticon-volleyball:before { content: ""; }
+.flaticon-ice-hockey-stick-and-puck:before { content: ""; }
+.flaticon-sport:before { content: ""; }
+.flaticon-vote:before { content: ""; }
+.flaticon-golf:before { content: ""; }
+.flaticon-baseball-bat:before { content: ""; }
+.flaticon-ping-pong:before { content: ""; }
+.flaticon-rugby:before { content: ""; }
+.flaticon-sports-and-competition:before { content: ""; }
+.flaticon-handball:before { content: ""; }
+.flaticon-target:before { content: ""; }
+.flaticon-checked:before { content: ""; }
+.flaticon-left-arrow:before { content: ""; }
+.flaticon-diskette:before { content: ""; }
+.flaticon-delete:before { content: ""; }
+.flaticon-bin:before { content: ""; }
+.flaticon-close:before { content: ""; }
+.flaticon-list:before { content: ""; }
+.flaticon-coin-stack:before { content: ""; }
+.flaticon-wallet-filled-money-tool:before { content: ""; }
+.flaticon-warning:before { content: ""; }
+.flaticon-calendar-1:before { content: ""; }
+.flaticon-score:before { content: ""; }
+.flaticon-stat:before { content: ""; }
+.flaticon-megaphone:before { content: ""; }
+.flaticon-plus:before { content: ""; }
+.flaticon-bar-chart:before { content: ""; }
+.flaticon-winner:before { content: ""; }
+.flaticon-cup:before { content: ""; }
+.flaticon-grid-1:before { content: ""; }
+.flaticon-filter:before { content: ""; }
+.flaticon-right-arrow-black-triangle:before { content: ""; }
+.flaticon-corner:before { content: ""; }
+.flaticon-receipt:before { content: ""; }
+.flaticon-double-chevron:before { content: ""; }
+.flaticon-video-camera:before { content: ""; }
+.flaticon-soccer:before { content: ""; }
+.flaticon-ui:before { content: ""; }
+.flaticon-ui-1:before { content: ""; }
+.flaticon-ui-2:before { content: ""; }
+.flaticon-ui-3:before { content: ""; }
+.flaticon-search:before { content: ""; }
+.flaticon-padlock:before { content: ""; }
+.flaticon-new-window:before { content: ""; }
+.flaticon-tennis:before { content: ""; }
+.flaticon-tennis-1:before { content: ""; }
+.flaticon-play-button-1:before { content: ""; }
+.flaticon-new:before { content: ""; }
+.flaticon-appointment:before { content: ""; }
+.flaticon-star-1:before { content: ""; }
+.flaticon-files:before { content: ""; }
+.flaticon-full-screen:before { content: ""; }
+.flaticon-monitor:before { content: ""; }
+.flaticon-monitor-1:before { content: ""; }
+.flaticon-film:before { content: ""; }
+.flaticon-menu:before { content: ""; }
+.flaticon-sort-down:before { content: ""; }
+.flaticon-greyhound:before { content: ""; }
+.flaticon-helmet:before { content: ""; }
+.flaticon-motorcycle:before { content: ""; }
+.flaticon-chevron:before { content: ""; }
+.flaticon-monitor-2:before { content: ""; }
+.flaticon-power:before { content: ""; }
+.flaticon-speaker-filled-audio-tool:before { content: ""; }
+.flaticon-arroba:before { content: ""; }
+.flaticon-cake:before { content: ""; }
+.flaticon-united-heterosexual-symbols:before { content: ""; }
+.flaticon-smartphone:before { content: ""; }
+.flaticon-earth:before { content: ""; }
+.flaticon-location:before { content: ""; }
+.flaticon-directional-sign:before { content: ""; }
+.flaticon-bank:before { content: ""; }
+.flaticon-deal:before { content: ""; }
+.flaticon-bag:before { content: ""; }
+.flaticon-link:before { content: ""; }
+.flaticon-notification:before { content: ""; }
+.flaticon-arrow-down:before { content: ""; }
+.flaticon-gear:before { content: ""; }
+.flaticon-correct:before { content: ""; }
+.flaticon-bank-building:before { content: ""; }
+.flaticon-shuffle-double-arrows-symbol:before { content: ""; }
+.flaticon-calendar-2:before { content: ""; }
+.flaticon-invoice:before { content: ""; }
+.flaticon-calendar-3:before { content: ""; }
+.flaticon-support-1:before { content: ""; }
+.flaticon-sign-out:before { content: ""; }
+.flaticon-cloud-upload:before { content: ""; }
+.flaticon-warning-1:before { content: ""; }
+.flaticon-notification-1:before { content: ""; }
+.flaticon-notification-2:before { content: ""; }
+.flaticon-envelope:before { content: ""; }
+.flaticon-smartphone-1:before { content: ""; }
+.flaticon-info:before { content: ""; }
+.flaticon-id-card:before { content: ""; }
+.flaticon-placeholder:before { content: ""; }
+.flaticon-credit-card-payment:before { content: ""; }
+.flaticon-money:before { content: ""; }
+.flaticon-minus:before { content: ""; }
+.flaticon-minus-1:before { content: "\f196"; }
+.flaticon-invoice-1:before { content: ""; }
+.flaticon-alarm-clock:before { content: ""; }
+.flaticon-hourglass:before { content: ""; }
+.flaticon-minus-sign-of-a-line-in-horizontal-position:before,
+.flaticon-minus-2:before { content: ""; }
+.flaticon-layers:before { content: ""; }
+.flaticon-options:before { content: ""; }
+.flaticon-attach-interface-symbol-of-a-clip:before { content: ""; }
+.flaticon-attach:before { content: "\f199"; }
+.flaticon-headset:before { content: ""; }
+.flaticon-clock-1:before { content: ""; }
+.flaticon-tick:before { content: ""; }
+.flaticon-send:before { content: ""; }
+.flaticon-title:before { content: ""; }
+.flaticon-justify-paragraph:before { content: ""; }
+.flaticon-three-dots-more-indicator:before { content: ""; }
+.flaticon-video-player:before { content: ""; }
+.flaticon-off:before { content: ""; }
+.flaticon-information-button:before { content: ""; }
+.flaticon-whistle:before { content: ""; }
+.flaticon-graph:before { content: ""; }
+.flaticon-whatsapp:before { content: ""; }
+.flaticon-skype:before { content: ""; }
+.flaticon-menu-1:before { content: ""; }
+.flaticon-question-mark-1:before { content: ""; }
+.flaticon-double-tick-indicator:before { content: ""; }
+.flaticon-hammer:before { content: ""; }
+.flaticon-user:before { content: ""; }
+.flaticon-call-back:before { content: ""; }
+.flaticon-shield:before { content: ""; }
+.flaticon-stopwatch:before { content: ""; }
+.flaticon-rec:before { content: ""; }
+.flaticon-circle:before { content: ""; }
+.flaticon-refresh:before { content: ""; }
+.flaticon-go-back-arrow:before { content: ""; }
+.flaticon-add-1:before { content: ""; }
+.flaticon-checked-1:before { content: ""; }
+.flaticon-bowling:before { content: ""; }
+.flaticon-formula-one:before { content: ""; }
+.flaticon-badminton:before { content: ""; }
+.flaticon-helmet-1:before { content: ""; }
+.flaticon-tennis-2:before { content: ""; }
+.flaticon-close-1:before { content: ""; }
+.flaticon-edit:before { content: ""; }
+/*# sourceMappingURL=flaticon.css.map */

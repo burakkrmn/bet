@@ -1,0 +1,108 @@
+@-webkit-keyframes pulseKeyframes {
+
+    0%,
+    to {
+        opacity: .25
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+@keyframes pulseKeyframes {
+
+    0%,
+    to {
+        opacity: .25
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+.button {
+    transition: opacity .5s;
+    opacity: 1;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 .1em #000;
+    color: #fff;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(243, 12, 120, 0);
+    position: relative
+}
+
+body.ka .button {
+    text-transform: none
+}
+
+.button.btn:before {
+    content: none !important
+}
+
+.button.btn.selected,
+.button.btn:active {
+    background: none
+}
+
+.button__surface {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+    width: 4.4em;
+    height: 4.4em;
+    line-height: 4.4em;
+    border: 1px solid #4d4d4d;
+    border-radius: 50%;
+    background-color: #1a1a1a;
+    text-shadow: none;
+    opacity: .6
+}
+
+.button__surface:after,
+.button__surface:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    text-transform: lowercase;
+    font-size: 2.8em;
+    color: hsla(0, 0%, 100%, .8);
+    line-height: 1.5em;
+    font-family: evo-mobile, serif;
+    tap-highlight-color: transparent
+}
+
+.button.selected .button__surface:before {
+    color: #1a1a1a
+}
+
+.button.selected .button__surface {
+    background-color: #fff
+}
+
+.button.menu .button__surface:before {
+    font-size: 2.5em;
+    content: "\e906";
+    line-height: 1.75em
+}
+
+.button.menu.disabled {
+    pointer-events: none
+}
+
+.button.camera .button__surface:before {
+    font-size: 2.5em;
+    content: "\e909";
+    line-height: 1.75em
+}
+
+body.tablet .button.camera {
+    display: none
+}

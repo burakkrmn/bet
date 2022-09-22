@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="17px" viewBox="0 0 25 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>user-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-1322.000000, -1111.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-22" transform="translate(114.000000, 651.000000)">
+                <g id="Group-18" transform="translate(666.333333, 1.000000)">
+                    <g id="Group-14" transform="translate(0.000000, 434.000000)">
+                        <path d="M566.371441,51.1428571 L542.028559,51.1428571 C542.009623,50.8357269 542,50.5257716 542,50.2133333 C542,43.8572987 545.982457,38.5288612 551.341082,37.1073494 C549.247026,36.0581032 547.809524,33.892163 547.809524,31.3904762 C547.809524,27.8611136 550.670637,25 554.2,25 C557.729363,25 560.590476,27.8611136 560.590476,31.3904762 C560.590476,33.892163 559.152974,36.0581032 557.058918,37.1073494 C562.417543,38.5288612 566.4,43.8572987 566.4,50.2133333 C566.4,50.5257716 566.390377,50.8357269 566.371441,51.1428571 Z" id="user-icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

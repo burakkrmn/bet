@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="54px" viewBox="0 0 84 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>live-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="live-icon" fill-rule="nonzero">
+            <path d="M51.74,0.88 C57.2550464,0.87998897 61.7289699,5.3449646 61.74,10.86 L61.74,14.86 L80.6,5.28 C81.2198585,4.96328084 81.9598056,4.99163244 82.5536116,5.35485402 C83.1474177,5.71807559 83.509658,6.3639142 83.51,7.06 L83.51,46.92 C83.509658,47.6160858 83.1474177,48.2619244 82.5536116,48.625146 C81.9598056,48.9883676 81.2198585,49.0167192 80.6,48.7 L61.74,39.12 L61.74,43.12 C61.74,48.6428475 57.2628475,53.12 51.74,53.12 L10.5,53.12 C4.9771525,53.12 0.5,48.6428475 0.5,43.12 L0.5,10.88 C0.5,5.3571525 4.9771525,0.88 10.5,0.88 L51.74,0.88 Z" id="Shape" fill="#FF0000"></path>
+            <circle id="Path" fill="#FFFFFF" cx="8" cy="9" r="3"></circle>
+        </g>
+    </g>
+</svg>

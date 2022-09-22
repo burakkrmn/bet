@@ -1,0 +1,206 @@
+
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("/assets-bt/webfonts/FlaticonMobile/Flaticon.eot");
+  src: url("/assets-bt/webfonts/FlaticonMobile/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("/assets-bt/webfonts/FlaticonMobile/Flaticon.woff2") format("woff2"),
+       url("/assets-bt/webfonts/FlaticonMobile/Flaticon.woff") format("woff"),
+       url("/assets-bt/webfonts/FlaticonMobile/Flaticon.ttf") format("truetype"),
+       url("/assets-bt/webfonts/FlaticonMobile/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("/assets-bt/webfonts/FlaticonMobile/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+
+[class^="flaticon-"]:before,[class*=" flaticon-"]:before,[class^="flaticon-"]:after,[class*=" flaticon-"]:after{font-family:Flaticon;font-style:normal;font-weight:400!important}
+
+
+.flaticon-list:before { content: "\f100"; }
+.flaticon-user:before { content: "\f101"; }
+.flaticon-left-arrow:before { content: "\f102"; }
+.flaticon-right-arrow:before { content: "\f103"; }
+.flaticon-import:before { content: "\f104"; }
+.flaticon-plus:before { content: "\f105"; }
+.flaticon-android:before { content: "\f106"; }
+.flaticon-arrow:before { content: "\f107"; }
+.flaticon-magnifying-glass:before { content: "\f108"; }
+.flaticon-magnifying-glass-1:before { content: "\f109"; }
+.flaticon-soccer-ball:before { content: "\f10a"; }
+.flaticon-soccer-field:before { content: "\f10b"; }
+.flaticon-award:before { content: "\f10c"; }
+.flaticon-dollar:before { content: "\f10d"; }
+.flaticon-history:before { content: "\f10e"; }
+.flaticon-cancel:before { content: "\f10f"; }
+.flaticon-tv:before { content: "\f110"; }
+.flaticon-arrow-1:before { content: "\f111"; }
+.flaticon-up-arrow:before { content: "\f112"; }
+.flaticon-pulse:before { content: "\f113"; }
+.flaticon-down-arrow:before { content: "\f114"; }
+.flaticon-play:before { content: "\f115"; }
+.flaticon-badge:before { content: "\f116"; }
+.flaticon-information:before { content: "\f117"; }
+.flaticon-multimedia:before { content: "\f118"; }
+.flaticon-arrow-2:before { content: "\f119"; }
+.flaticon-add:before { content: "\f11a"; }
+.flaticon-plus-18-movie:before { content: "\f11b"; }
+.flaticon-info:before { content: "\f11c"; }
+.flaticon-video-camera:before { content: "\f11d"; }
+.flaticon-clipboard:before { content: "\f11e"; }
+.flaticon-minus:before { content: "\f11f"; }
+.flaticon-dna:before { content: "\f120"; }
+.flaticon-headphones:before { content: "\f121"; }
+.flaticon-television:before { content: "\f122"; }
+
+@font-face {
+  font-family: "Flaticon-2";
+  src: url("/assets-bt/webfonts/Flaticon-2.eot");
+  src: url("/assets-bt/webfonts/Flaticon-2.eot?#iefix") format("embedded-opentype"),
+       url("/assets-bt/webfonts/Flaticon-2.woff2") format("woff2"),
+       url("/assets-bt/webfonts/Flaticon-2.woff") format("woff"),
+       url("/assets-bt/webfonts/Flaticon-2.ttf") format("truetype"),
+       url("/assets-bt/webfonts/Flaticon-2.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon-2";
+    src: url("/assets-bt/webfonts/Flaticon-2.svg#Flaticon") format("svg");
+  }
+}
+
+
+[class^="flaticon-2-"]:before,[class*=" flaticon-2-"]:before,[class^="flaticon-2-"]:after,[class*=" flaticon-2-"]:after{font-family:Flaticon-2;font-style:normal;font-weight:400!important}
+
+
+
+.flaticon-2-symbol-of-spades:before { content: "\f100"; }
+.flaticon-2-account:before { content: "\f101"; }
+.flaticon-2-lock-padlock-symbol-for-security-interface:before { content: "\f102"; }
+.flaticon-2-question-mark:before { content: "\f103"; }
+.flaticon-2-sign-in:before { content: "\f104"; }
+.flaticon-2-add-1:before { content: "\f105"; }
+.flaticon-2-answering:before { content: "\f106"; }
+.flaticon-2-tv-1:before { content: "\f107"; }
+.flaticon-2-down-angle:before { content: "\f108"; }
+.flaticon-2-fire:before { content: "\f109"; }
+.flaticon-2-star:before { content: "\f10a"; }
+.flaticon-2-football-field:before { content: "\f10b"; }
+.flaticon-2-calendar:before { content: "\f10c"; }
+.flaticon-2-bet:before { content: "\f10d"; }
+.flaticon-2-football:before { content: "\f10e"; }
+.flaticon-2-clock:before { content: "\f10f"; }
+.flaticon-2-gamepad:before { content: "\f110"; }
+.flaticon-2-poker-chip:before { content: "\f111"; }
+.flaticon-2-cherry:before { content: "\f112"; }
+.flaticon-2-horse-racing:before { content: "\f113"; }
+.flaticon-2-bingo:before { content: "\f114"; }
+.flaticon-2-zeppelin:before { content: "\f115"; }
+.flaticon-2-multiple-triangles-triangle:before { content: "\f116"; }
+.flaticon-2-gift:before { content: "\f117"; }
+.flaticon-2-gift-1:before { content: "\f118"; }
+.flaticon-2-right-angle:before { content: "\f119"; }
+.flaticon-2-facebook-logo:before { content: "\f11a"; }
+.flaticon-2-instagram:before { content: "\f11b"; }
+.flaticon-2-twitter:before { content: "\f11c"; }
+.flaticon-2-youtube-logo:before { content: "\f11d"; }
+.flaticon-2-support:before { content: "\f11e"; }
+.flaticon-2-telegram:before { content: "\f11f"; }
+.flaticon-2-android:before { content: "\f120"; }
+.flaticon-2-down-arrow-1:before { content: "\f121"; }
+.flaticon-2-play-button:before { content: "\f122"; }
+.flaticon-2-speech-bubbles-with-dollar-sign:before { content: "\f123"; }
+.flaticon-2-home:before { content: "\f124"; }
+.flaticon-2-football-1:before { content: "\f125"; }
+.flaticon-2-live:before { content: "\f126"; }
+.flaticon-2-gamepad-1:before { content: "\f127"; }
+.flaticon-2-jackpot:before { content: "\f128"; }
+.flaticon-2-running-horse-with-jockey:before { content: "\f129"; }
+.flaticon-2-numbers-one-and-five:before { content: "\f12a"; }
+.flaticon-2-airship:before { content: "\f12b"; }
+.flaticon-2-grid:before { content: "\f12c"; }
+.flaticon-2-credit-card:before { content: "\f12d"; }
+.flaticon-2-trophy:before { content: "\f12e"; }
+.flaticon-2-soccer-ball-variant:before { content: "\f12f"; }
+.flaticon-2-basketball:before { content: "\f130"; }
+.flaticon-2-volleyball:before { content: "\f131"; }
+.flaticon-2-ice-hockey-stick-and-puck:before { content: "\f132"; }
+.flaticon-2-sport:before { content: "\f133"; }
+.flaticon-2-vote:before { content: "\f134"; }
+.flaticon-2-golf:before { content: "\f135"; }
+.flaticon-2-baseball-bat:before { content: "\f136"; }
+.flaticon-2-ping-pong:before { content: "\f137"; }
+.flaticon-2-rugby:before { content: "\f138"; }
+.flaticon-2-sports-and-competition:before { content: "\f139"; }
+.flaticon-2-handball:before { content: "\f13a"; }
+.flaticon-2-target:before { content: "\f13b"; }
+.flaticon-2-checked:before { content: "\f13c"; }
+.flaticon-2-history-left:before { content: "\f13d"; }
+.flaticon-2-diskette:before { content: "\f13e"; }
+.flaticon-2-delete:before { content: "\f13f"; }
+.flaticon-2-bin:before { content: "\f140"; }
+.flaticon-2-close:before { content: "\f141"; }
+.flaticon-2-list:before { content: "\f142"; }
+.flaticon-2-coin-stack:before { content: "\f143"; }
+.flaticon-2-wallet-filled-money-tool:before { content: "\f144"; }
+.flaticon-2-warning:before { content: "\f145"; }
+.flaticon-2-calendar-1:before { content: "\f146"; }
+.flaticon-2-score:before { content: "\f147"; }
+.flaticon-2-stat:before { content: "\f148"; }
+.flaticon-2-megaphone:before { content: "\f149"; }
+.flaticon-2-plus:before { content: "\f14a"; }
+.flaticon-2-bar-chart:before { content: "\f14b"; }
+.flaticon-2-winner:before { content: "\f14c"; }
+.flaticon-2-cup:before { content: "\f14d"; }
+.flaticon-2-grid-1:before { content: "\f14e"; }
+.flaticon-2-filter:before { content: "\f14f"; }
+.flaticon-2-right-arrow-black-triangle:before { content: "\f150"; }
+.flaticon-2-corner:before { content: "\f151"; }
+.flaticon-2-receipt:before { content: "\f152"; }
+.flaticon-2-double-chevron:before { content: "\f153"; }
+.flaticon-2-video-camera:before { content: "\f154"; }
+.flaticon-2-soccer:before { content: "\f155"; }
+.flaticon-2-ui:before { content: "\f156"; }
+.flaticon-2-ui-1:before { content: "\f157"; }
+.flaticon-2-ui-2:before { content: "\f158"; }
+.flaticon-2-ui-3:before { content: "\f159"; }
+.flaticon-2-search:before { content: "\f15a"; }
+.flaticon-2-padlock:before { content: "\f15b"; }
+.flaticon-2-new-window:before { content: "\f15c"; }
+.flaticon-2-tennis:before { content: "\f15d"; }
+.flaticon-2-tennis-1:before { content: "\f15e"; }
+.flaticon-2-play-button-1:before { content: "\f15f"; }
+.flaticon-2-new:before { content: "\f160"; }
+.flaticon-2-appointment:before { content: "\f161"; }
+.flaticon-2-star-1:before { content: "\f162"; }
+.flaticon-2-files:before { content: "\f163"; }
+.flaticon-2-full-screen:before { content: "\f164"; }
+.flaticon-2-monitor:before { content: "\f165"; }
+.flaticon-2-monitor-1:before { content: "\f166"; }
+.flaticon-2-film:before { content: "\f167"; }
+.flaticon-2-menu:before { content: "\f168"; }
+.flaticon-2-sort-down:before { content: "\f169"; }
+.flaticon-2-greyhound:before { content: "\f16a"; }
+.flaticon-2-helmet:before { content: "\f16b"; }
+.flaticon-2-motorcycle:before { content: "\f16c"; }
+.flaticon-2-chevron:before { content: "\f16d"; }
+.flaticon-2-monitor-2:before { content: "\f16e"; }
+.flaticon-2-power:before { content: "\f16f"; }
+.flaticon-2-speaker-filled-audio-tool:before { content: "\f170"; }
+.flaticon-2-arroba:before { content: "\f171"; }
+.flaticon-2-cake:before { content: "\f172"; }
+.flaticon-2-united-heterosexual-symbols:before { content: "\f173"; }
+.flaticon-2-smartphone:before { content: "\f174"; }
+.flaticon-2-earth:before { content: "\f175"; }
+.flaticon-2-location:before { content: "\f176"; }
+.flaticon-2-directional-sign:before { content: "\f177"; }
+.flaticon-2-bank:before { content: "\f178"; }

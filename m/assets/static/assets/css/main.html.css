@@ -1,0 +1,303 @@
+@media print {
+    #b_0y5x1rl9_539 {
+        display: none
+    }
+}
+
+
+.owl-theme[_ngcontent-rpp-c0] {
+    display: block;
+}
+
+
+.m-home-style img {
+    max-width: 100%;
+}
+
+#mainslider .owl-carousel {
+    height: 280px;
+    overflow: hidden;
+}
+
+#mainslider .owl-carousel.owl-loaded {
+    height: auto;
+    overflow: hidden;
+}
+
+#mainslider .item img {
+    max-height: 330px;
+    width: inherit;
+    max-width: 100%;
+}
+
+a.goldenapp {
+    background: #454545;
+    width: 100%;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding: 9px 0;
+    margin: -1px 0 0;
+}
+
+#mainslider .item {
+    position: relative;
+}
+
+#mainslider .item img {
+    width: inherit;
+    max-width: 91%;
+}
+
+
+.footer-linker {
+    position: fixed;
+    bottom: 56px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    background: #e4a904;
+}
+
+.footer-linker a {
+    padding: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 14px;
+    flex: 1;
+    color: #fff;
+}
+
+.footer-linker a img {
+    max-height: 21px;
+    margin-right: 5px;
+}
+
+#sportsbet_menu .mainmenu svg {
+    float: left;
+    margin: 10px 5px 0 0;
+}
+
+.icon-withdraw150x50-260 {
+    height: 50px;
+    width: 150px;
+    background-image: url(https://v3.pronetstatic.com/goldenbahis/upload_files/bitcoinbg.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: contain;
+}
+
+.icon-withdraw100x33-260 {
+    height: 33px;
+    width: 100px;
+    background-image: url(https://v3.pronetstatic.com/goldenbahis/upload_files/bitcoinbg.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: contain;
+}
+
+.icon-withdraw55x18-260 {
+    height: 18px;
+    width: 55px;
+    background-image: url(https://v3.pronetstatic.com/goldenbahis/upload_files/bitcoinbg.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: contain;
+}
+
+.img.icon-finance100x33-329 {
+    background-image: url(https://v3.pronetstatic.com/goldenbahis/upload_files/envoyhizliqr.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: contain;
+}
+
+.icon-finance100x33-477 {
+    background-image: url(https://v3.pronetstatic.com/goldenbahis/upload_files/icon-finance150x50-477.png) !important;
+    background-size: contain !important;
+}
+
+.blink_me {
+    animation: blinker 1.5s linear infinite;
+    color: #000;
+}
+
+.blink_me i {
+    color: #f2bd1b
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.btc_bonus {
+    color: #fc9100;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+}
+
+.btc_bonus span {}
+
+#mainslider {
+    position: relative;
+}
+
+#mainslider .owl-nav {}
+
+#mainslider .owl-nav .owl-prev,
+#mainslider .owl-nav .owl-next {
+    position: absolute;
+    top: 30%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 0;
+    line-height: 50px;
+    width: 35px;
+    margin: 0;
+}
+
+#mainslider .owl-nav .owl-prev {
+    left: 0;
+}
+
+#mainslider .owl-nav .owl-next {
+    right: 0;
+}
+
+.page-wrap {
+    margin: 0;
+}
+
+
+.footer-linker {
+    position: fixed;
+    bottom: 56px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    background: #e4a904;
+}
+
+.footer-linker a {
+    padding: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 14px;
+    flex: 1;
+    color: #fff;
+}
+
+.footer-linker a img {
+    max-height: 21px;
+    margin-right: 5px;
+}
+
+#sportsbet_menu .mainmenu svg {
+    float: left;
+    margin: 10px 5px 0 0;
+}
+
+.icon-withdraw150x50-260 {
+    height: 50px;
+    width: 150px;
+    background-image: url(https://v3.pronetstatic.com/goldenbahis/upload_files/bitcoinbg.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: contain;
+}
+
+.icon-withdraw100x33-260 {
+    height: 33px;
+    width: 100px;
+    background-image: url(https://v3.pronetstatic.com/goldenbahis/upload_files/bitcoinbg.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: contain;
+}
+
+.icon-withdraw55x18-260 {
+    height: 18px;
+    width: 55px;
+    background-image: url(https://v3.pronetstatic.com/goldenbahis/upload_files/bitcoinbg.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: contain;
+}
+
+.img.icon-finance100x33-329 {
+    background-image: url(https://v3.pronetstatic.com/goldenbahis/upload_files/envoyhizliqr.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: contain;
+}
+
+.icon-finance100x33-477 {
+    background-image: url(https://v3.pronetstatic.com/goldenbahis/upload_files/icon-finance150x50-477.png) !important;
+    background-size: contain !important;
+}
+
+.blink_me {
+    animation: blinker 1.5s linear infinite;
+    color: #000;
+}
+
+.blink_me i {
+    color: #f2bd1b
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.btc_bonus {
+    color: #fc9100;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+}
+
+.btc_bonus span {}
+
+#mainslider {
+    position: relative;
+}
+
+#mainslider .owl-nav {}
+
+#mainslider .owl-nav .owl-prev,
+#mainslider .owl-nav .owl-next {
+    position: absolute;
+    top: 30%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 0;
+    line-height: 50px;
+    width: 35px;
+    margin: 0;
+}
+
+#mainslider .owl-nav .owl-prev {
+    left: 0;
+}
+
+#mainslider .owl-nav .owl-next {
+    right: 0;
+}
+
+.page-wrap {
+    margin: 0;
+}

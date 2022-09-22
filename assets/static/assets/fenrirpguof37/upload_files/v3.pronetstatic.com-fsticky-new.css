@@ -1,0 +1,693 @@
+body {
+    margin-bottom: 55px;
+}
+
+.fsticky {
+    height: 55px;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+}
+
+.fsticky>div {
+    float: left;
+    padding: 0;
+    margin: 0;
+    /* width: 16.666%; */
+    height: 55px;
+    flex: auto;
+}
+
+.fsticky>div a {
+    color: inherit;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.fsticky>div img {
+    float: left;
+    max-height: 35px;
+    margin: 10px 0 0 10%
+}
+
+.fsticky>div p {
+    font-size: 14px;
+    margin: 0;
+    float: left;
+    color: inherit;
+    margin: 18px 0 0 7%;
+}
+
+.fsticky>div.fqr p,
+.fsticky>div.fnasil p,
+.fsticky>div.fhizlibonus p {
+    width: 90px;
+    margin: 8px 0 0 12%;
+}
+
+.fsticky>div:hover {
+    height: 66px;
+    position: relative;
+    top: -10px;
+    border-radius: 7px 7px 0 0;
+}
+
+.fsticky .hidden {
+    display: none;
+}
+
+div.fpop {
+    background: #1a1d2a;
+    color: #f5bc40;
+}
+
+div.fgoldentv {
+    display: none;
+}
+
+div.fqr {
+    background: #f5bc40;
+    color: #0e131c;
+}
+
+div.fnasil {
+    background: #1a1d2a;
+    color: #f5bc40;
+}
+
+div.fhizlibonus {
+    background: #f5bc40;
+    color: #0e131c;
+}
+
+div.ftahmin {
+    background: #1a1d2a;
+    color: #f5bc40;
+    display: none;
+}
+
+div.fyardim {
+    background: #f5bc40;
+    color: #0e131c;
+}
+
+div.fcanli {
+    background: #1a1d2a;
+    color: #f5bc40;
+}
+
+.fpgames_slide {
+    z-index: 9999 !important;
+    border-top: 1px solid #ecc262;
+    position: fixed;
+    height: 174px;
+    bottom: 55px;
+    left: 0;
+    width: 100%;
+    background: #1a1a1a;
+    display: none;
+}
+
+.fpgames_l {
+    float: left;
+    height: 100%;
+    width: 15%;
+    color: #fff;
+}
+
+.fpgames_close {
+    float: left;
+    height: 100%;
+    width: 20%;
+    font-size: 35px;
+    margin: 65px 0 0;
+    text-align: center;
+}
+
+.fpgames_close i {
+    cursor: pointer;
+    display: inline-block;
+    width: 26px;
+    margin-left: 10px;
+}
+
+.fpgames_title {
+    float: left;
+    width: 80%;
+    text-align: center;
+    margin: 65px 0 0;
+    font-size: 17px;
+}
+
+.fpgames_r {
+    float: left;
+    height: 150px;
+    width: 85%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 22px;
+}
+
+.fpgames_slider .casinov2-mainwrap .gametitle {
+    display: none;
+}
+
+.fpgames_slider .owl-item {
+    float: left;
+}
+
+.fpgames_slider .owl-item img {
+    max-width: 100%;
+}
+
+.fpgames_slider .owl-nav>div,
+.fpgames_slider .owl-nav>div:hover {
+    background: url(fsticky_arrow.png) no-repeat 0 0;
+    position: absolute;
+    text-indent: -999em;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    top: 33%;
+    height: 47px;
+    width: 40px;
+}
+
+.fpgames_slider .owl-nav .owl-prev,
+.fpgames_slider .owl-nav .owl-prev:hover {
+    left: 5px;
+    background-position: left center;
+}
+
+.fpgames_slider .owl-nav .owl-next,
+.fpgames_slider .owl-nav .owl-next:hover {
+    right: 5px;
+    background-position: right center;
+}
+
+.fpgames_slider .owl-dots {
+    display: none;
+}
+
+#left-side-help {
+    z-index: 999 !important;
+    border-top: 5px solid #ecc262;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    background: #191823;
+}
+
+#left-side-help .inner {}
+
+#left-side-help .inner .help-header {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: solid #373548 1px;
+}
+
+#left-side-help .help-header h3 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+#left-side-help .help-header a {
+    color: #fff;
+    font-size: 30px;
+    opacity: 1;
+}
+
+#left-side-help .inner .help-main {
+    padding: 20px 0;
+}
+
+#left-side-help .inner .help-main .panel {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+}
+
+#left-side-help .inner .help-main .panel-body {
+    padding: 15px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background: transparent !important;
+    border-top-color: #373548;
+    color: #fff;
+}
+
+#left-side-help .inner .panel-default>.panel-heading {
+    background: none;
+    padding: 0;
+}
+
+#left-side-help .inner .panel-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 19px !important;
+    padding: 10px 13px;
+    display: block;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 19px;
+    color: #fff;
+}
+
+#side-help {
+    z-index: 999 !important;
+    border-top: 5px solid #ecc262;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    background: #191823;
+}
+
+#side-help .inner {}
+
+#side-help .inner .help-header {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: solid #373548 1px;
+}
+
+#side-help .help-header h3 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#side-help .help-header a {
+    color: #fff;
+    font-size: 29px;
+    opacity: 1;
+}
+
+#side-help .inner .help-main {
+    padding: 20px 0;
+}
+
+#side-help .inner .help-main .panel {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+}
+
+#side-help .inner .help-main .panel-body {
+    padding: 15px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background: transparent !important;
+    border-top-color: #373548;
+    color: #fff;
+}
+
+#side-help .inner .panel-default>.panel-heading {
+    background: none;
+    padding: 0;
+}
+
+#side-help .inner .panel-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 19px !important;
+    padding: 10px 13px;
+    display: block;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 19px;
+    color: #fff;
+}
+
+
+.cep_bank_pop {
+    display: block;
+    margin-bottom: 5px;
+    color: #ecc262;
+    padding: 4px;
+}
+
+.cep_bank_pop img {
+    max-height: 22px;
+}
+
+.cep_bank_pop:hover {
+    background: #59576b;
+    border-radius: 3px;
+    color: #ecc262;
+}
+
+.inputHolder {
+    border-bottom: solid 1px rgba(255, 255, 255, .8) !important;
+    margin: 0 0 10px;
+}
+
+.inputHolder .fa-envelope-o {
+    width: 14px;
+}
+
+.selectHolder {
+    border-bottom: solid 1px rgba(255, 255, 255, .8) !important;
+    margin: 0 0 10px;
+}
+
+.textareaHolder {
+    border: solid 1px rgba(255, 255, 255, .8) !important;
+    margin: 0 0 10px;
+}
+
+.input-text,
+.input-text:focus {
+    color: #b5b5b5;
+    width: calc(100% - 40px) !important;
+    font-size: 14px;
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0;
+    outline: 0;
+    padding: 0px 10px !important;
+    box-shadow: none !important;
+    transition: all .3s;
+    margin: 0 !important;
+}
+
+.textareaHolder .input-text {
+    width: 98% !important;
+    height: 80px;
+}
+
+.selectHolder .input-text {
+    color: #b5b5b5;
+}
+
+.input-text::placeholder {
+    color: #b5b5b5;
+}
+
+select.input-text {
+    height: 32px !important;
+    display: inline-block;
+}
+
+select.input-text option {
+    background-color: #282828;
+}
+
+.button-send {
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fce2a1+0,ecc262+100 */
+    background: #ecc262;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #c38a07 0%, #ecc262 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #c38a07 0%, #ecc262 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #c38a07 0%, #ecc262 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c38a07', endColorstr='#ecc262', GradientType=0);
+    /* IE6-9 */
+    color: #ffffff;
+    border: 0;
+    font-weight: 700;
+    padding: 9px 0;
+}
+
+.live-support-link {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 19px !important;
+    width: 100%;
+    padding: 10px 20px;
+    display: inline-block;
+    border-bottom: 1px solid #1a1a1a;
+    transition: all linear 0.15s;
+    color: #fff;
+}
+
+.live-support-link:active,
+.live-support-link:visited,
+.live-support-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.live-support-link.active,
+.live-support-link:hover {
+    background: #ecc262;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*----- Accordion -----*/
+.k-erisim {
+    color: #ecc262;
+    clear: both;
+    display: block;
+    padding: 4px;
+    margin-top: 5px;
+}
+
+.k-erisim i {
+    margin-right: 10px;
+}
+
+.k-erisim i.fa-android {
+    font-size: 20px;
+}
+
+.k-erisim i.fa-chrome {
+    margin-right: 13px;
+    font-size: 16px;
+}
+
+.k-erisim:hover {
+    background: #59576b;
+    border-radius: 3px;
+    color: #007337;
+}
+
+.accordion,
+.accordion * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.accordion {
+    /* overflow:hidden; */
+}
+
+.accordion p {
+    margin: 0;
+}
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 19px !important;
+    width: 100%;
+    padding: 10px 20px;
+    display: inline-block;
+    border-bottom: 1px solid #1a1a1a;
+    transition: all linear 0.15s;
+    color: #fff;
+}
+
+.accordion-section-title:active,
+.accordion-section-title:visited,
+.accordion-section-title:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.accordion-section-title.active,
+.accordion-section-title:hover {
+    background: #ecc262;
+    color: #fff;
+    text-decoration: none;
+}
+
+.accordion-section-title i,
+.live-support-link i {
+    margin: 5px 10px 0 0;
+    width: 28px;
+    float: left;
+}
+
+.accordion-section-title img {
+    max-width: 100%;
+    float: left;
+    max-height: 28px;
+}
+
+.accordion-section:last-child .accordion-section-title {
+    border-bottom: none;
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+    padding: 20px;
+    display: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.accordion-section-content span {
+    color: #ecc262;
+}
+
+.panel-collapse .panel-body .input-holder i {
+    position: absolute;
+    color: white;
+    top: 6px;
+    left: 3px;
+    font-size: 18px;
+}
+
+#whatsappDestek span {
+    font-weight: bold;
+}
+
+#kolayErisim .k-erisim {
+    margin-top: 10px;
+    padding: 2px 5px;
+    display: block;
+}
+
+#kolayErisim .k-erisim:hover {
+    background: #ecc262;
+    color: #fff;
+}
+
+.yardim-sosyal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.yardim-sosyal li {
+    float: left;
+}
+
+.yardim-sosyal li a {
+    padding: 8px 14px;
+    font-size: 25px;
+}
+
+.yardim-sosyal li a:hover {
+    color: #ecc262;
+}
+
+.yardim-kapat {
+    cursor: pointer;
+}
+
+.h_db_ip {
+    float: left;
+    position: relative;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.h_db_ip i {
+    float: left;
+    margin: 14px 0 0;
+    font-size: 14px;
+}
+
+.h_db_ip div.country_code {
+    float: left;
+    margin: 10px 7px 0;
+    width: 45px;
+}
+
+.input-text[name=phone] {
+    width: 160px !important;
+}
+
+#phone_s {
+    display: none;
+}
+
+.opened #phone_s {
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 160px;
+}
+
+.dropdown-content.call-drop {
+    color: #000;
+    font-size: 14px;
+}
+
+.call_times {
+    cursor: pointer;
+    padding: 3px 3px;
+}
+
+.call_times:hover {
+    background: #006635;
+    color: #fff;
+}
+
+#comm100-float-button-3,
+#comm100-float-button-2 {
+    display: none !important;
+}
+
+.dshbrd-mdl .mdl-cntnt .dshbrd-tbl tbody tr td {
+    color: #fff;
+}
+
+@media (max-width:1405px) {}
+
+@media (max-width:1335px) {}
+
+@media (max-width:1190px) {
+    .fsticky>div img {
+        float: left;
+        max-height: 25px;
+        margin: 15px 0 0 8%
+    }
+
+    .fsticky>div p {
+        font-size: 12px;
+        margin: 0;
+        float: left;
+        color: inherit;
+        margin: 18px 0 0 5%;
+    }
+
+    .fsticky>div.fqr p,
+    .fsticky>div.fnasil p,
+    .fsticky>div.fhizlibonus p {
+        width: 70px;
+        margin: 8px 0 0 8%;
+    }
+}
+
+@media (max-width:1100px) {}
